@@ -1,153 +1,137 @@
 @font-face {
-    font-family: 'Lato';
-    font-style: normal;
-    font-weight: normal;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: normal;
 
-    src: url( 'fonts/lato-regular.eot');
-    src: url( 'fonts/lato-regular.eot?#iefix') format('embedded-opentype'), url( 'fonts/lato-regular.woff') format('woff'), url( 'fonts/lato-regular.ttf') format('truetype'), url( 'fonts/lato-regular.svg#latoregular') format('svg');
+  src: url( 'fonts/lato-regular.eot');
+  src: url( 'fonts/lato-regular.eot?#iefix') format('embedded-opentype'), url( 'fonts/lato-regular.woff') format('woff'), url( 'fonts/lato-regular.ttf') format('truetype'), url( 'fonts/lato-regular.svg#latoregular') format('svg');
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html {  
-    min-height: 100%;
-    position: relative;
+html {
+  min-height: 100%;
+  position: relative;
 }
 
 body {
-    background-color: #fff;
-    color: #34495e;
-    font-family: "Lato", Helvetica, Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.72222;
-    margin: 0 0 60px 0;
+  background-color: #fef6e4;
+  color: #001858;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.72222;
+  margin: 0 0 60px 0;
 }
 
 .container {
-    margin: 0;
-    padding: 73px 15px 0 15px;
-    text-align: center;
-    width: 100%;
+  margin: 0;
+  padding: 73px 15px 0 15px;
+  text-align: center;
+  width: 100%;
 }
 
 .headline {
-    font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
-    letter-spacing: -2px;
-    margin: 10px 0;
+  font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: -2px;
+  margin: 10px 0;
 }
 
 .name {
-    display: inline-block;
-    vertical-align: 50%;
+  display: inline-block;
+  vertical-align: 50%;
 }
 
 .logo {
-    height: 227px;
-    width: 227px;
+  height: 227px;
+  width: 227px;
+  color: #f3d2c1;
+  filter: invert(9%) sepia(35%) saturate(6597%) hue-rotate(216deg) brightness(91%) contrast(111%);
 }
 
 .name small {
-    color: rgba(52, 73, 94, .3);
-    display: block;
-    font-size: 22px;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: 22px;
-    padding-top: 5px;
+  color: #f3d2c1;
+  display: block;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 22px;
+  padding-top: 5px;
 }
 
 h1, h4, h5 {
-    font-weight: 500;
-    line-height: 1.1
+  font-weight: 500;
+  line-height: 1.1
 }
 
 .paragraph {
-    letter-spacing: -0.25px;
-    margin: 0 auto;
-    max-width: 973px;
+  margin: 0 auto;
+  max-width: 973px;
 }
 
 h5.paragraph {
-    font-size: 14px;
-    margin: 10px auto;
-    max-width: 673px;
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 14px;
+  margin: 10px auto;
+  max-width: 573px;
+}
+
+.fa-ul {
+  margin-left: 0;
+}
+
+h5.paragraph i {
+  margin-right: 5px;
 }
 
 .footer {
-    background-color: #f5f5f5;
-    bottom: 0;
-    font-size: 35px;
-    height: 60px;
-    width: 100%;
-    position: absolute;
-    padding: 0 15px;
-    text-align: center;
+  background-color: #8bd3dd;
+  bottom: 0;
+  font-size: 35px;
+  height: 60px;
+  width: 100%;
+  position: absolute;
+  padding: 0 15px;
+  text-align: center;
 }
 
 .footer i {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 a {
-    background-attachment: scroll;
-    background-color: rgba(0, 0, 0, 0);
-    text-decoration: none;  
-    background-image: none;
-
-    -webkit-background-clip: border-box;
-    -webkit-background-origin: padding-box;
-    -webkit-background-size: auto;
-    background-clip: border-box;
-    background-origin: padding-box;
-    background-size: auto;
-
-    color: rgba(66, 139, 202, .8);
-
-    -webkit-transition: .25s;
-    transition: .25s;
-}
-
-a:hover {
-    color: rgba(66, 139, 202, 1);
-    text-decoration: none;
-}
-
-small a {
-    color: rgba(66, 139, 202, .6);
-}
-
-small a:hover {
-    color: rgba(66, 139, 202, .8);
+  color: #8bd3dd;
+  text-decoration: none;
 }
 
 .footer a {
-    color: rgba(52, 73, 94, .8);
+  color: #fef6e4;
 }
 
-.footer a:hover {
-    color: rgba(52, 73, 94, 1);
+a:hover {
+  color: #f582ae;
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 700px) {
-    .logo {
-        display: none;
-    }
-    .paragraph {
-        width: 95%;
-    }
+  .logo {
+    display: none;
+  }
+  .paragraph {
+    width: 95%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .container {
-        padding-top: 23px;
-    }
-    .name span {
-        font-size: 72px;
-    }
-    h4.paragraph {
-        margin-top: -30px;
-    }
+  .container {
+    padding-top: 23px;
+  }
+  .name span {
+    font-size: 72px;
+  }
+  h4.paragraph {
+    margin-top: -30px;
+  }
 }
-			
