@@ -1,10 +1,17 @@
 @font-face {
-  font-family: 'Lato';
+  font-family: 'MonaspaceNeon';
+  font-style: normal;
+  font-weight: bold;
+
+  src: url( 'fonts/MonaspaceNeon-Bold.woff');
+}
+
+@font-face {
+  font-family: 'MonaspaceNeon';
   font-style: normal;
   font-weight: normal;
 
-  src: url( 'fonts/lato-regular.eot');
-  src: url( 'fonts/lato-regular.eot?#iefix') format('embedded-opentype'), url( 'fonts/lato-regular.woff') format('woff'), url( 'fonts/lato-regular.ttf') format('truetype'), url( 'fonts/lato-regular.svg#latoregular') format('svg');
+  src: url( 'fonts/MonaspaceNeon-Regular.woff');
 }
 
 * {
@@ -17,9 +24,9 @@ html {
 }
 
 body {
-  background-color: #F8F0FB;
+  background-color: #FFFCF2;
   color: #1D1A05;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "MonaspaceNeon", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.72222;
   margin: 0 0 60px 0;
@@ -33,7 +40,7 @@ body {
 }
 
 .headline {
-  font: 900 90px/100px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 900 90px/100px "MonaspaceNeon", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: -2px;
   margin: 10px 0;
 }
@@ -87,7 +94,7 @@ h5.paragraph i {
 }
 
 .footer {
-  background-color: #420039;
+  background-color: #1D1A05;
   bottom: 0;
   font-size: 35px;
   height: 60px;
@@ -102,16 +109,17 @@ h5.paragraph i {
 }
 
 a {
-  color: #EF476F;
+  color: #593F62;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .footer a {
-  color: #F8F0FB;
+  color: #FFFCF2;
 }
 
 a:hover {
-  color: #770058;
+  color: #EF476F;
   text-decoration: none;
 }
 
