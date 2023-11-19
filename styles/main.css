@@ -17,8 +17,8 @@ html {
 }
 
 body {
-  background-color: #fef6e4;
-  color: #001858;
+  background-color: #F8F0FB;
+  color: #1D1A05;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 18px;
   line-height: 1.72222;
@@ -46,12 +46,12 @@ body {
 .logo {
   height: 227px;
   width: 227px;
-  color: #f3d2c1;
-  filter: invert(9%) sepia(35%) saturate(6597%) hue-rotate(216deg) brightness(91%) contrast(111%);
+  color: #1D1A05;
+  filter: invert(7%) sepia(15%) saturate(4861%) hue-rotate(29deg) brightness(100%) contrast(96%);
 }
 
 .name small {
-  color: #f3d2c1;
+  color: #EF476F;
   display: block;
   font-size: 22px;
   font-weight: 700;
@@ -87,7 +87,7 @@ h5.paragraph i {
 }
 
 .footer {
-  background-color: #8bd3dd;
+  background-color: #420039;
   bottom: 0;
   font-size: 35px;
   height: 60px;
@@ -102,16 +102,16 @@ h5.paragraph i {
 }
 
 a {
-  color: #8bd3dd;
+  color: #EF476F;
   text-decoration: none;
 }
 
 .footer a {
-  color: #fef6e4;
+  color: #F8F0FB;
 }
 
 a:hover {
-  color: #f582ae;
+  color: #770058;
   text-decoration: none;
 }
 
