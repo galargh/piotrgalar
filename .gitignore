@@ -1,32 +1,25 @@
-.DS_Store
-.AppleDouble
-.LSOverride
+# Generated files
+package/generated*
 
-# Icon must end with two \r
-Icon
+# Ignore installed npm modules
+node_modules/
 
+# Ignore build tool output, e.g. code coverage
+.nyc_output/
+coverage/
+docs/_data/coverage.json
+jsdoc/
 
-# Thumbnails
-._*
+# Ignore API documentation
+api-docs/
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Ignore folders from source code editors
+.vscode
+.idea
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Ignore eleventy output when doing manual tests
+_site/
 
-# TeX
-data/*
-!data/resume.tex
-!data/resume.cls
-!data/resume.pdf
-!data/resume-black-white.pdf
+# Ignore test files
+.cache
+test/stubs-layout-cache/_includes/*.js

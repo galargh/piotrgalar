@@ -1,0 +1,31 @@
+---
+layout: base.njk
+---
+
+<article>
+  <p>
+    {{ foreword | safe }}
+  </p>
+  <hr>
+</article>
+
+<div>
+  {%- for post in collections[collection] | reverse -%}
+  <div class="post">
+    {%- if post.data.url -%}
+    <a class="title" target="_blank" href="{{ post.data.url }}">
+      {{ post.data.title }}
+    </a>
+    {%- else -%}
+    <a class="title" href="{{ post.url }}">
+      {{ post.data.title }}
+    </a>
+    {%- endif -%}
+    {%- if date -%}
+    <div class="date">
+      {{ post.data.date | date('DD MMMM YYYY') }}
+    </div>
+    {%- endif -%}
+  </div>
+  {%- endfor -%}
+</div>
