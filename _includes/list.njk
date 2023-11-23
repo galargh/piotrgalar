@@ -21,7 +21,7 @@ layout: base.njk
       {{ post.data.title }}
     </a>
     {%- endif -%}
-    {%- if date -%}
+    {%- if post.data.date -%}
     <div class="date">
       {{ post.data.date | date('DD MMMM YYYY') }}
     </div>

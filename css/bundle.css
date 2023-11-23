@@ -325,7 +325,7 @@ button {
   font-size: 1rem;
 }
 
-.date {
+.subtitle {
   margin-top: -1rem;
   display: block;
   color: var(--dim-grey);

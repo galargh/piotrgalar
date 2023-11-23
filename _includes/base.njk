@@ -70,7 +70,7 @@ title: Piotr Galar
     <div class="container">
       <h1>{{ title }}</h1>
       {%- if date -%}
-        <div class="date">{{ date | date('DD MMMM YYYY') }}</div>
+        <div class="subtitle">{{ date | date('DD MMMM YYYY') }}</div>
       {%- endif -%}
       {{ content | safe }}
       </div>
