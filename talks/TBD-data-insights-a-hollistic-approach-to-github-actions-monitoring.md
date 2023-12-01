@@ -8,7 +8,7 @@ title: "Data Insights: A Holistic Approach to GitHub Actions Monitoring"
 
 ## Abstract
 
-This session offers a comprehensive exploration of GitHub Actions monitoring at [Protocol Labs](https://github.com/pl-strflt/tf-aws-gh-observer). Attendees will gain insights into effective data collection, storage, visualization, and analysis methods used to optimize workflows. It’ll show how identifying bottlenecks and issues in real-time can significantly enhance the overall developer experience. It will also offer a practical guide to setting up your own monitoring system. The talk will illustrate how early data-driven insights can facilitate effective planning and troubleshooting.
+This session offers a comprehensive exploration of GitHub Actions monitoring at [Protocol Labs](https://github.com/ipdxco/github-monitoring-dashboard). Attendees will gain insights into effective data collection, storage, visualization, and analysis methods used to optimize workflows. It’ll show how identifying bottlenecks and issues in real-time can significantly enhance the overall developer experience. It will also offer a practical guide to setting up your own monitoring system. The talk will illustrate how early data-driven insights can facilitate effective planning and troubleshooting.
 
 ## Key Takeaways
 

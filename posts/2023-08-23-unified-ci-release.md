@@ -5,9 +5,9 @@ title: "Upgrading with Ease: The Launch of Unified CI 2.0 for Developer Workflow
 date: 2023-08-23
 ---
 
-**[Unified CI 2.0](https://github.com/pl-strflt/uci)** has been released and rolled out to all [229](https://github.com/pl-strflt/uci/actions/workflows/list-repositories.yml) participating repositories! It's been quite an upgrade but we made it through in one piece 💪
+**[Unified CI 2.0](https://github.com/ipdxco/unified-github-workflows)** has been released and rolled out to all [229](https://github.com/ipdxco/unified-github-workflows/actions/workflows/list-repositories.yml) participating repositories! It's been quite an upgrade but we made it through in one piece 💪
 
-**What's new in Unified CI 2.0?** -> **New Repository**: https://github.com/protocol/.github has been archived, long live **https://github.com/pl-strflt/uci**! Moving to a new repository allowed us to ensure stability throughout the rollout. It will also help in future management of the repo since we'll be able to quickly introduce org-level changes that the new uci repo might require.
+**What's new in Unified CI 2.0?** -> **New Repository**: https://github.com/protocol/.github has been archived, long live **https://github.com/ipdxco/unified-github-workflows**! Moving to a new repository allowed us to ensure stability throughout the rollout. It will also help in future management of the repo since we'll be able to quickly introduce org-level changes that the new uci repo might require.
 
 🎈 **Self-service Sign Up**: All you have to do to enroll in Unified CI is to give [@web3-bot](https://github.com/web3-bot) push access to your repository. That's it!
 
@@ -25,7 +25,7 @@ date: 2023-08-23
 
 If your repositories were **previously enrolled** in Unified CI, *absolutely nothing*! We have pushed out the upgrade to all participating repos and all the workflow upgrade PRs have already been merged.
 
-If you want to **enroll a new repository** in Unified CI, *invite [@web3-bot](https://github.com/web3-bot) as a collaborator with push access*, sit back, and wait for Unified CI workflows to make their way to your repository. Note that if your repository is in one of the orgs to which [@web3-bot](https://github.com/web3-bot) was not invited before, the invitation will have to be accepted. In that case, please drop us an issue in https://github.com/pl-strflt/uci.
+If you want to **enroll a new repository** in Unified CI, *invite [@web3-bot](https://github.com/web3-bot) as a collaborator with push access*, sit back, and wait for Unified CI workflows to make their way to your repository. Note that if your repository is in one of the orgs to which [@web3-bot](https://github.com/web3-bot) was not invited before, the invitation will have to be accepted. In that case, please drop us an issue in https://github.com/ipdxco/unified-github-workflows.
 
 **What about Go 1.21?**
 

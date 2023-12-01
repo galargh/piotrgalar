@@ -1,5 +1,5 @@
 ---
 tags: project
 title: Self-Hosted GitHub Actions Runners fit for Open Source
-url: https://github.com/pl-strflt/tf-aws-gh-runner
+url: https://github.com/ipdxco/custom-github-runners
 ---

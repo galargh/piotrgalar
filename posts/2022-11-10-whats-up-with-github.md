@@ -15,7 +15,7 @@ It’s another packed day ahead of us - stay tuned for more 🧪
 
 🔒 2fa is gonna be required by the end of next year all around GitHub 🎉
 
-🕺 [terraform-aws-github-runner](https://github.com/philips-labs/terraform-aws-github-runner) had a presentation! Kudos! It’s a brilliant piece of software. We’re using it! See [tf-aws-gh-runner](https://github.com/pl-strflt/tf-aws-gh-runner). If you have a use case for self-hosted runners, please reach out!
+🕺 [terraform-aws-github-runner](https://github.com/philips-labs/terraform-aws-github-runner) had a presentation! Kudos! It’s a brilliant piece of software. We’re using it! See [tf-aws-gh-runner](https://github.com/ipdxco/custom-github-runners). If you have a use case for self-hosted runners, please reach out!
 
 🔓 Private vulnerability reporting is getting API and org-level setting… eventually. From what I gathered it’s not on a roadmap yet 😞 Either way, let’s discuss which repos we want this in first!
 

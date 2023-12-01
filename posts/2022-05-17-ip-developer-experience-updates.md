@@ -21,4 +21,4 @@ We found a way to disable GitHub Actions workflows in go-ipfs forks by default. 
 
 💯 **Stats!**
 
-**GitHub Management:** [9 organizations](https://github.com/pl-strflt/github-mgmt-template/network/dependents?package_id=UGFja2FnZS0zMDE2NzcyMDQ4) have github-mgmt repositories, which allow managing GitHub configuration as code, set up. ****We’re going to be concentrating on updating the memberships/access levels and UX improvements next.
+**GitHub Management:** [9 organizations](https://github.com/ipdxco/github-as-code/network/dependents?package_id=UGFja2FnZS0zMDE2NzcyMDQ4) have github-mgmt repositories, which allow managing GitHub configuration as code, set up. ****We’re going to be concentrating on updating the memberships/access levels and UX improvements next.
