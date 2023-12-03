@@ -2,6 +2,7 @@
 tags: talk
 layout: article.njk
 title: "Data Insights: A Holistic Approach to GitHub Actions Monitoring"
+hidden: true
 ---
 
 *This talk has not been presented publicly yet.*

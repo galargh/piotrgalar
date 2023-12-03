@@ -2,6 +2,7 @@
 tags: talk
 layout: article.njk
 title: Powering Open Source with Self-Hosted Runners
+hidden: true
 ---
 
 *This talk has not been presented publicly yet.*

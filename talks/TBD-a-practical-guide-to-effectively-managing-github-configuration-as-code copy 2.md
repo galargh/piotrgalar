@@ -2,6 +2,7 @@
 tags: talk
 layout: article.njk
 title: A Practical Guide to Effectively Managing GitHub Configuration as Code
+hidden: true
 ---
 
 *This talk has not been presented publicly yet.*

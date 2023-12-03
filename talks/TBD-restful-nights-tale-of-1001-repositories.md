@@ -2,6 +2,7 @@
 tags: talk
 layout: article.njk
 title: "Restful Nights: Tale of 1001 Repositories"
+hidden: true
 ---
 
 *This talk has not been presented publicly yet.*
