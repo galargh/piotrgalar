@@ -3,10 +3,10 @@ layout: article.njk
 title: About
 ---
 
-I'm the Co-Founder and CTO of [IPDX.co](https://ipdx.co) - the Developer Experience consulting service. I specialise in enhancing developers' quality of life through automation, which has been my main focus for the past 6 years.
+I'm the Co-Founder and Tech Lead of [IPDX.co](https://ipdx.co) - the Developer Experience consulting service. I strongly believe a human-centric approach is the key to championing productivity in the software development space. I strive to empower developers to focus on what they do best - innovate.
 
-At Protocol Labs, the team I led looked over thousands of open-source repositories and improved workflows for 300+ developers. Before this, at Sumo Logic, my team introduced innovative strategies for software distribution, which proved to be transformative for the organization.
+I specialise in enhancing workflows through automation, which has been my main focus for the past 6 years. At Protocol Labs, the team I led changed how 300+ developers work across 1000+ open-source repositories. Before, at Sumo Logic, the team I built transformed the organisation through large-scale CI and build systems migrations and redesigns.
 
-These experiences are part of my ongoing commitment to positively impacting the work and well-being of developers through better tools, systems, and processes.
+These and many other experiences are part of my ongoing commitment to improving the work, well-being and happiness of developers through better tools, systems, and processes.
 
 <hr>
